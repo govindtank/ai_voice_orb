@@ -1,0 +1,10 @@
+.dart_tool/
+.packages
+build/
+.idea/
+*.iml
+.DS_Store
+.github/
+example/.dart_tool/
+example/build/
+example/pubspec.lock

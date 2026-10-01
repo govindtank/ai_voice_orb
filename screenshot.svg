@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 440" width="850" height="440" fill="none">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B0F19"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <!-- Gemini Live Orb Gradient -->
+    <linearGradient id="orbGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06B6D4"/>
+      <stop offset="35%" stop-color="#3B82F6"/>
+      <stop offset="70%" stop-color="#6366F1"/>
+      <stop offset="100%" stop-color="#8B5CF6"/>
+    </linearGradient>
+
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#06B6D4" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="outerCorona" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="60%" stop-color="#8B5CF6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0B0F19" stop-opacity="0"/>
+    </radialGradient>
+
+    <filter id="glowBlur" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="850" height="440" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="1.5"/>
+
+  <!-- Top Title Bar -->
+  <g transform="translate(30, 25)">
+    <circle cx="10" cy="12" r="5" fill="#EF4444"/>
+    <circle cx="28" cy="12" r="5" fill="#F59E0B"/>
+    <circle cx="46" cy="12" r="5" fill="#10B981"/>
+    <text x="70" y="17" fill="#F8FAFC" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="16" font-weight="700">ai_voice_orb</text>
+    <rect x="190" y="2" width="130" height="22" rx="11" fill="#06B6D4" fill-opacity="0.15" stroke="#06B6D4" stroke-width="1"/>
+    <text x="255" y="16" fill="#22D3EE" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">CONVERSATIONAL AI</text>
+    <rect x="330" y="2" width="120" height="22" rx="11" fill="#8B5CF6" fill-opacity="0.15" stroke="#8B5CF6" stroke-width="1"/>
+    <text x="390" y="16" fill="#C084FC" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">GEMINI LIVE &amp; SIRI</text>
+    <rect x="460" y="2" width="120" height="22" rx="11" fill="#10B981" fill-opacity="0.15" stroke="#10B981" stroke-width="1"/>
+    <text x="520" y="16" fill="#34D399" font-family="sans-serif" font-size="11" font-weight="600" text-anchor="middle">OKLAB BLENDING</text>
+  </g>
+
+  <!-- Left: Glowing AI Neural Voice Orb Preview -->
+  <g transform="translate(30, 70)">
+    <rect width="420" height="340" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="28" fill="#94A3B8" font-family="sans-serif" font-size="13" font-weight="600">LIVE AUDIO-REACTIVE ORB CANVAS</text>
+
+    <!-- Center Orb Group -->
+    <g transform="translate(210, 180)">
+      <!-- Outer Corona Glow -->
+      <circle cx="0" cy="0" r="140" fill="url(#outerCorona)" filter="url(#glowBlur)"/>
+
+      <!-- Orbiting Constellation Particles -->
+      <circle cx="-100" cy="-45" r="3" fill="#BAE6FD" filter="url(#softGlow)"/>
+      <circle cx="95" cy="-60" r="2.5" fill="#E0E7FF" filter="url(#softGlow)"/>
+      <circle cx="115" cy="40" r="3.5" fill="#67E8F9" filter="url(#softGlow)"/>
+      <circle cx="-85" cy="75" r="2" fill="#C7D2FE"/>
+      <circle cx="20" cy="115" r="3" fill="#38BDF8" filter="url(#softGlow)"/>
+      <circle cx="-35" cy="-110" r="2" fill="#BAE6FD"/>
+
+      <!-- Outer Fluid Membrane with Sinusoidal Deformation -->
+      <path d="M 0,-85 C 45,-90 85,-55 90,-10 C 95,35 65,80 15,88 C -35,95 -80,60 -88,15 C -95,-30 -50,-80 0,-85 Z" fill="url(#orbGrad1)" fill-opacity="0.4" filter="url(#softGlow)"/>
+
+      <!-- Inner Fluid Body Membrane -->
+      <path d="M 0,-78 C 40,-82 78,-48 82,-8 C 86,32 58,72 12,80 C -32,86 -72,54 -80,12 C -86,-28 -44,-74 0,-78 Z" fill="url(#orbGrad1)" fill-opacity="0.9" filter="url(#softGlow)"/>
+
+      <!-- Radiant Energy Core -->
+      <circle cx="0" cy="0" r="42" fill="url(#coreGlow)"/>
+
+      <!-- Specular Reflection Highlight -->
+      <ellipse cx="-20" cy="-22" rx="16" ry="11" fill="#FFFFFF" fill-opacity="0.85" transform="rotate(-30, -20, -22)" filter="url(#softGlow)"/>
+    </g>
+
+    <!-- Bottom Audio Level & State Indicator -->
+    <g transform="translate(20, 295)">
+      <rect width="380" height="30" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <text x="15" y="19" fill="#22D3EE" font-family="sans-serif" font-size="11" font-weight="700">STATE: LISTENING</text>
+      <!-- Mini audio visualizer bars -->
+      <rect x="230" y="8" width="4" height="14" rx="2" fill="#06B6D4"/>
+      <rect x="240" y="4" width="4" height="22" rx="2" fill="#22D3EE"/>
+      <rect x="250" y="10" width="4" height="10" rx="2" fill="#06B6D4"/>
+      <rect x="260" y="2" width="4" height="26" rx="2" fill="#38BDF8"/>
+      <rect x="270" y="7" width="4" height="16" rx="2" fill="#06B6D4"/>
+      <rect x="280" y="12" width="4" height="6" rx="2" fill="#06B6D4"/>
+      <rect x="290" y="5" width="4" height="20" rx="2" fill="#8B5CF6"/>
+      <rect x="300" y="9" width="4" height="12" rx="2" fill="#8B5CF6"/>
+      <text x="325" y="19" fill="#94A3B8" font-family="monospace" font-size="11">0.78 amp</text>
+    </g>
+  </g>
+
+  <!-- Right: Architecture, Themes & States -->
+  <g transform="translate(470, 70)">
+    <rect width="350" height="340" rx="12" fill="url(#cardGrad)" stroke="#334155" stroke-width="1"/>
+    <text x="20" y="28" fill="#94A3B8" font-family="sans-serif" font-size="13" font-weight="600">PRESETS &amp; STATE MACHINE</text>
+
+    <!-- State Machine Chips -->
+    <g transform="translate(20, 45)">
+      <rect width="56" height="22" rx="6" fill="#06B6D4" fill-opacity="0.2" stroke="#06B6D4" stroke-width="1"/>
+      <text x="28" y="15" fill="#22D3EE" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Idle</text>
+
+      <rect x="62" width="68" height="22" rx="6" fill="#3B82F6" fill-opacity="0.3" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="96" y="15" fill="#60A5FA" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Listening</text>
+
+      <rect x="136" width="68" height="22" rx="6" fill="#8B5CF6" fill-opacity="0.2" stroke="#8B5CF6" stroke-width="1"/>
+      <text x="170" y="15" fill="#C084FC" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Thinking</text>
+
+      <rect x="210" width="68" height="22" rx="6" fill="#10B981" fill-opacity="0.2" stroke="#10B981" stroke-width="1"/>
+      <text x="244" y="15" fill="#34D399" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Speaking</text>
+
+      <rect x="284" width="48" height="22" rx="6" fill="#EF4444" fill-opacity="0.2" stroke="#EF4444" stroke-width="1"/>
+      <text x="308" y="15" fill="#F87171" font-family="sans-serif" font-size="10" font-weight="700" text-anchor="middle">Error</text>
+    </g>
+
+    <!-- Theme Palette 1: Gemini Live -->
+    <g transform="translate(20, 85)">
+      <text x="0" y="14" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">Gemini Live</text>
+      <circle cx="160" cy="10" r="7" fill="#06B6D4"/>
+      <circle cx="180" cy="10" r="7" fill="#3B82F6"/>
+      <circle cx="200" cy="10" r="7" fill="#6366F1"/>
+      <circle cx="220" cy="10" r="7" fill="#8B5CF6"/>
+    </g>
+
+    <!-- Theme Palette 2: Siri Horizon -->
+    <g transform="translate(20, 120)">
+      <text x="0" y="14" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">Siri Horizon</text>
+      <circle cx="160" cy="10" r="7" fill="#FF2A85"/>
+      <circle cx="180" cy="10" r="7" fill="#8B5CF6"/>
+      <circle cx="200" cy="10" r="7" fill="#06B6D4"/>
+      <circle cx="220" cy="10" r="7" fill="#FBBF24"/>
+    </g>
+
+    <!-- Theme Palette 3: DeepSeek Neon -->
+    <g transform="translate(20, 155)">
+      <text x="0" y="14" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">DeepSeek Neon</text>
+      <circle cx="160" cy="10" r="7" fill="#00F0FF"/>
+      <circle cx="180" cy="10" r="7" fill="#0051FF"/>
+      <circle cx="200" cy="10" r="7" fill="#00FFA3"/>
+      <circle cx="220" cy="10" r="7" fill="#1E1B4B"/>
+    </g>
+
+    <!-- Theme Palette 4: Aurora Borealis -->
+    <g transform="translate(20, 190)">
+      <text x="0" y="14" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="600">Aurora Borealis</text>
+      <circle cx="160" cy="10" r="7" fill="#10B981"/>
+      <circle cx="180" cy="10" r="7" fill="#34D399"/>
+      <circle cx="200" cy="10" r="7" fill="#38BDF8"/>
+      <circle cx="220" cy="10" r="7" fill="#059669"/>
+    </g>
+
+    <!-- OKLab Blending Feature Callout -->
+    <g transform="translate(20, 230)">
+      <rect width="310" height="90" rx="8" fill="#0F172A" stroke="#334155" stroke-width="1"/>
+      <circle cx="16" cy="20" r="8" fill="#10B981" fill-opacity="0.2"/>
+      <text x="16" y="24" fill="#10B981" font-size="11" font-weight="bold" text-anchor="middle">✓</text>
+      <text x="32" y="24" fill="#F1F5F9" font-family="sans-serif" font-size="12" font-weight="700">OKLab Perceptual Color Blending</text>
+      <text x="16" y="44" fill="#94A3B8" font-family="sans-serif" font-size="10.5">Eliminates desaturated muddy gray midtones</text>
+      <text x="16" y="58" fill="#94A3B8" font-family="sans-serif" font-size="10.5">during animated theme &amp; state transitions.</text>
+      <text x="16" y="76" fill="#22D3EE" font-family="monospace" font-size="10" font-weight="bold">120 FPS GPU CustomPainter • Zero CPU readback</text>
+    </g>
+  </g>
+</svg>
