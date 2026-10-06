@@ -1,16 +1,12 @@
 # ai_voice_orb
 
-[![Pub Version](https://img.shields.io/pub/v/ai_voice_orb.svg?style=flat-square&color=blue)](https://pub.dev/packages/ai_voice_orb)
-[![Pub Points](https://img.shields.io/pub/points/ai_voice_orb?style=flat-square[![Pub Points](https://img.shields.io/pub/points/ai_voice_orb?style=flat-square&color=2E8B57&label=pub%20points)](https://pub.dev/packages/ai_voice_orb/score)color=2E8B57[![Pub Points](https://img.shields.io/pub/points/ai_voice_orb?style=flat-square&color=2E8B57&label=pub%20points)](https://pub.dev/packages/ai_voice_orb/score)label=pub%20points)](https://pub.dev/packages/ai_voice_orb/score)
-[![Live Demo](https://img.shields.io/badge/Live%20Demo-Try%20In%20Browser-00ff88?style=flat-square&logo=flutter)](https://govindtank.github.io/ai_voice_orb/)
-[![Pub Likes](https://img.shields.io/pub/likes/ai_voice_orb?style=flat-square)](https://pub.dev/packages/ai_voice_orb)
-[![CI](https://github.com/govindtank/ai_voice_orb/actions/workflows/ci.yml/badge.svg)](https://github.com/govindtank/ai_voice_orb/actions)
-[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square)](LICENSE)
-
-Fluid, audio-reactive neural voice visualizer for Conversational AI, Gemini Live, Siri, and voice assistant applications in Flutter.
-
 <p align="center">
-  <img src="https://raw.githubusercontent.com/govindtank/ai_voice_orb/main/screenshot.svg" width="750" alt="ai_voice_orb visualizer demo"/>
+  <a href="https://pub.dev/packages/ai_voice_orb"><img src="https://img.shields.io/pub/v/ai_voice_orb.svg?style=flat-square&color=blue" alt="Pub Version"></a>
+  <a href="https://pub.dev/packages/ai_voice_orb/score"><img src="https://img.shields.io/pub/points/ai_voice_orb?style=flat-square&color=2E8B57&label=pub%20points" alt="Pub Points"></a>
+  <a href="https://govindtank.github.io/ai_voice_orb/"><img src="https://img.shields.io/badge/Live%20Demo-Try%20In%20Browser-00ff88?style=flat-square&logo=flutter" alt="Live Demo"></a>
+  <a href="https://pub.dev/packages/ai_voice_orb"><img src="https://img.shields.io/pub/likes/ai_voice_orb?style=flat-square" alt="Pub Likes"></a>
+  <a href="https://github.com/govindtank/ai_voice_orb/actions"><img src="https://github.com/govindtank/ai_voice_orb/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square" alt="License"></a>
 </p>
 
 ---
