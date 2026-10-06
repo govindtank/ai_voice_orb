@@ -1,6 +1,6 @@
 name: ai_voice_orb
 description: Fluid, audio-reactive neural voice orb for Conversational AI, Gemini Live & Siri style voice agents with multi-state animations, OKLab color blending, and GPU shaders.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/govindtank/ai_voice_orb
 homepage: https://github.com/govindtank/ai_voice_orb
 issue_tracker: https://github.com/govindtank/ai_voice_orb/issues

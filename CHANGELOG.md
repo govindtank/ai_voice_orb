@@ -1,3 +1,7 @@
+## 1.0.1
+
+* docs: add interactive Live Web Demo and ecosystem documentation.
+
 ## 1.0.0
 
 - Initial stable release of `ai_voice_orb`.
