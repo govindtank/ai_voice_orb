@@ -1,3 +1,7 @@
+## 1.1.1
+
+* **Discovery & Metadata**: Added official funding channels and refined search discovery topics.
+
 ## 1.1.0
 
 - **Default Tap-to-Pulse Interaction**: Tapping the voice orb now triggers an energy shockwave pulse by default without requiring an explicit `onTap` listener.
