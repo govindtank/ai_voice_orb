@@ -152,19 +152,15 @@ class _AiVoiceOrbState extends State<AiVoiceOrb>
           ),
         );
 
-        if (widget.onTap != null || widget.onLongPress != null) {
-          return GestureDetector(
-            onTap: () {
-              _effectiveController.pulse();
-              widget.onTap?.call();
-            },
-            onLongPress: widget.onLongPress,
-            behavior: HitTestBehavior.opaque,
-            child: orbWidget,
-          );
-        }
-
-        return orbWidget;
+        return GestureDetector(
+          onTap: () {
+            _effectiveController.pulse();
+            widget.onTap?.call();
+          },
+          onLongPress: widget.onLongPress,
+          behavior: HitTestBehavior.opaque,
+          child: orbWidget,
+        );
       },
     );
   }

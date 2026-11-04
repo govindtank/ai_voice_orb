@@ -8,3 +8,8 @@ build/
 example/.dart_tool/
 example/build/
 example/pubspec.lock
+example/android/
+example/ios/
+example/macos/
+example/windows/
+example/linux/

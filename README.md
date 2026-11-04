@@ -9,6 +9,12 @@
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat-square" alt="License"></a>
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/govindtank/ai_voice_orb/main/doc/assets/voice_orb_showcase.svg" alt="ai_voice_orb Showcase" width="100%">
+</p>
+
+A fluid, audio-reactive neural voice visualizer for Flutter. Built for Conversational AI, Gemini Live, Siri, and voice assistants with **fluid harmonic wave physics, OKLab perceptual color blending, orbiting constellation particles, and tap-to-pulse haptics**.
+
 ---
 
 ## ⚡ Why ai_voice_orb?

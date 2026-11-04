@@ -1,3 +1,9 @@
+## 1.1.0
+
+- **Default Tap-to-Pulse Interaction**: Tapping the voice orb now triggers an energy shockwave pulse by default without requiring an explicit `onTap` listener.
+- **Showcase Visuals**: Added crisp dark-mode vector SVG showcase banner in README documentation.
+- **Cleaner Distribution**: Excluded example platform directories via `.pubignore`.
+
 ## 1.0.1
 
 * docs: add interactive Live Web Demo and ecosystem documentation.
